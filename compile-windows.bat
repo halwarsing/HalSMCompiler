@@ -1,0 +1,1 @@
+gcc HalSMCompiler.c -o build/HalSMCompiler.exe -IHalSM/ -LHalSM -l:LibHalSM.a

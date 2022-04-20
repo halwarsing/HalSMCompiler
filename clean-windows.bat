@@ -1,0 +1,1 @@
+del build\HalSMCompiler.exe
