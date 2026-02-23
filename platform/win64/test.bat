@@ -1,0 +1,1 @@
+..\objcopy.exe --update-section .hsmeSection=build/foo.bin build/HalSMExecutable.exe build/HSME.exe

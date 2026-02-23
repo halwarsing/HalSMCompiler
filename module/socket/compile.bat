@@ -1,0 +1,3 @@
+gcc -c -DBUILD_DLL -Iinclude -I../../include src/SocketWindows.c -o build/SocketWindows.o
+gcc -shared -o ../../build/module/socket/socket.dll -Wl,--out-implib,build/libSocketWindows.a -Iinclude -I../../include build/SocketWindows.o ../../lib/libHalStringFormat.a ../../lib/libHalSM.a -lWs2_32
+emcc -sWASM=1 -sUSE_SDL=2 -Iinclude -I../../include src/SocketWASM.c D:\hal-projects-2023\HalStringFormat\source\HalStringFormat.c D:\hal-projects-2023\HalSM\source\HalSM.c -s ALLOW_MEMORY_GROWTH=1 -s SINGLE_FILE=1 -s EXPORTED_RUNTIME_METHODS=["ccall","cwrap","addFunction"] -s ALLOW_TABLE_GROWTH=1 -O2 -lwebsocket.js -sPROXY_POSIX_SOCKETS -pthread -sPROXY_TO_PTHREAD -o ../../build/module/socket/socket.wasm

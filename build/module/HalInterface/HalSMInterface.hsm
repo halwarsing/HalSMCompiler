@@ -1,0 +1,6 @@
+import HalInterfaceWindow
+#import HalGraphics
+#d=HalGraphics.Window()
+#d.drawText("ааАА",100,100,400,d.convertColor(0xFF0000FF))
+#d.update()
+print(da)

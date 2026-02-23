@@ -1,0 +1,18 @@
+{
+    "version":"0.0.1",
+    "description":"Socket library",
+    "author":"halwarsing",
+    "author_email":"system@halwarsing.net",
+    "platforms":{
+        "win64":{
+            "version":"0.0.1",
+            "module":"socket.dll",
+            "main":"Socket_init"
+        },
+        "wasm":{
+            "version":"0.0.1",
+            "module":"socket.wasm",
+            "main":"Socket_init"
+        }
+    }
+}

@@ -1,0 +1,1 @@
+build\HalSMCompiler.exe hsmtest.hsm

@@ -1,0 +1,4 @@
+{
+    "win_command":"objcopy.exe --add-section .hsme=h.hsme HalSMExecutable.o h.o",
+    "out":"h.o"
+}

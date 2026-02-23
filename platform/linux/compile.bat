@@ -1,0 +1,2 @@
+gcc -fPIC -o ../../build/platform/linux/hupdatesec.exe src/hupdatesec.c
+bash -c "gcc -o ../../build/platform/linux/HalSMExecutable.o src/HalSMExecutableLinux.c -I../../include -L../../lib -lHalStringFormatLinux -lHalFileSystemLinux -lHalSMLinux -l:libHalSMExecutableLinux.a"

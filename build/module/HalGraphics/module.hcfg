@@ -1,0 +1,38 @@
+{
+    "version":"0.0.1",
+    "description":"Halwarsing graphics library",
+    "author":"halwarsing",
+    "author_email":"system@halwarsing.net",
+    "platforms":{
+        "win64":{
+            "version":"0.0.1",
+            "module":"HalSMGraphics.dll",
+            "main":"HalSMGraphics_init"
+        },
+        "wasm":{
+            "version":"0.0.1",
+            "module":"HalSMGraphics.wasm",
+            "main":"HalSMGraphics_init"
+        },
+        "android86":{
+            "version":"0.0.1",
+            "module":"libHalSMGraphicsAndroid86.so",
+            "main":"HalSMGraphics_init"
+        },
+        "android86_64":{
+            "version":"0.0.1",
+            "module":"libHalSMGraphicsAndroid86_64.so",
+            "main":"HalSMGraphics_init"
+        },
+        "androidarm64-v8a":{
+            "version":"0.0.1",
+            "module":"libHalSMGraphicsAndroidarm64-v8a.so",
+            "main":"HalSMGraphics_init"
+        },
+        "androidarmeabi-v7a":{
+            "version":"0.0.1",
+            "module":"libHalSMGraphicsAndroidarmeabi-v7a.so",
+            "main":"HalSMGraphics_init"
+        }
+    }
+}

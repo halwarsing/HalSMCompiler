@@ -1,0 +1,46 @@
+id ICON "resources/HalSM.ico"
+
+#include <windows.h>
+#define VER_FILEVERSION             0,0,0,1
+#define VER_FILEVERSION_STR         "0.0.0.1\0"
+
+#define VER_PRODUCTVERSION          0,0,1
+#define VER_PRODUCTVERSION_STR      "0.0.1\0"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION     VER_FILEVERSION
+PRODUCTVERSION  VER_PRODUCTVERSION
+FILEFLAGSMASK   VS_FFI_FILEFLAGSMASK
+FILEFLAGS       (0x8L|0x2L)
+FILEOS VOS__WINDOWS32
+FILETYPE          VFT_APP
+FILESUBTYPE        VFT2_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"
+        BEGIN
+            VALUE "CompanyName",      "Halwarsing.Net"
+            VALUE "FileDescription",  "Compiler of HalSM (Supported platforms: Windows, Linux)"
+            VALUE "FileVersion",      VER_FILEVERSION_STR
+            VALUE "InternalName",     "HalSMCompiler"
+            VALUE "LegalCopyright",   "Copyright (C) 2023 Halwarsing.net (Арсений Хусаинов)"
+            VALUE "OriginalFilename", "HalSMCompiler.exe"
+            VALUE "ProductName",      "HalSMCompiler"
+            VALUE "ProductVersion",   VER_PRODUCTVERSION_STR
+        END
+    END
+
+    BLOCK "VarFileInfo"
+    BEGIN
+        /* The following line should only be modified for localized versions.     */
+        /* It consists of any number of WORD,WORD pairs, with each pair           */
+        /* describing a language,codepage combination supported by the file.      */
+        /*                                                                        */
+        /* For example, a file might have values "0x409,1252" indicating that it  */
+        /* supports English language (0x409) in the Windows ANSI codepage (1252). */
+
+        VALUE "Translation", 0x409, 1252, 0x419, 1251
+
+    END
+END

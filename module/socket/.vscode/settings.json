@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "winsock2.h": "c",
+        "ws2tcpip.h": "c",
+        "socketwasm.h": "c",
+        "socket.h": "c",
+        "emscripten.h": "c",
+        "em_macros.h": "c",
+        "em_js.h": "c",
+        "websocket.h": "c",
+        "html5.h": "c",
+        "em_types.h": "c",
+        "pthread.h": "c",
+        "time.h": "c",
+        "halsm.h": "c"
+    }
+}

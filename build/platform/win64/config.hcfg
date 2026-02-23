@@ -1,0 +1,4 @@
+{
+    "win_command":"hupdatesec.exe",
+    "out":"h.exe"
+}

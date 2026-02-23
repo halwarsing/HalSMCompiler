@@ -1,0 +1,1 @@
+build\HalSMCompiler.exe -c hsme hsmtest.hsm -modules HalGraphics

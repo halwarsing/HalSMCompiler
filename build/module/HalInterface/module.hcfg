@@ -1,0 +1,15 @@
+{
+    "version":"0.0.1",
+    "description":"Halwarsing interface library",
+    "author":"halwarsing",
+    "author_email":"system@halwarsing.net",
+    "modules_required":["HalGraphics"],
+    "import_halsm":["HalSMInterface.hsm"],
+    "platforms":{
+        "other":{
+            "version":"0.0.1",
+            "module":"HalSMInterface.hsm",
+            "type":"HalSM"
+        }
+    }
+}
